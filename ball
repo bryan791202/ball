@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta chatset ="UTF-8">
+        <title>DEMO</title>
+        <style type="text/css"></style>
+        <body>
+            <div id="show1"></div>
+            <script>
+                var str = "";
+                var ball_height =100;
+                
+                 for(var i =0 ; i < 5 ; i++){
+                     ball_height/=2 ;
+                 }
+                 show1.innerHTML = str + ball_height;
+                 
+            </script>
+        </body>
+    </head>
+</html>
